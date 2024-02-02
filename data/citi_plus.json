@@ -7,7 +7,7 @@
       {
         "min_balance": 0,
         "max_balance": 50000.00,
-        "rate_pa": 0.3
+        "rate_pa": 1.5
       },
       {
         "min_balance": 50000.01,

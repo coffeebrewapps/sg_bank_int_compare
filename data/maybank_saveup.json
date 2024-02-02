@@ -221,6 +221,39 @@
       ]
     },
     {
+      "id": "bills",
+      "category": "bills",
+      "required_categories": [
+        "bills"
+      ],
+      "label": "Bills",
+      "description": "1 product or service (Bills)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 1,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 0.55
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 1
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 1.5
+        }
+      ]
+    },
+    {
       "id": "grow_salary",
       "category": "grow",
       "required_categories": [
@@ -705,6 +738,176 @@
       ],
       "label": "Insure",
       "description": "2 products or services (Insure, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 2,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 1.2
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 1.5
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 2
+        }
+      ]
+    },
+    {
+      "id": "bills_grow",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow"
+      ],
+      "label": "Bills",
+      "description": "2 products or services (Bills, Grow)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 2,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 1.2
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 1.5
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 2
+        }
+      ]
+    },
+    {
+      "id": "bills_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "2 products or services (Bills, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 2,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 1.2
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 1.5
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 2
+        }
+      ]
+    },
+    {
+      "id": "bills_invest",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "invest"
+      ],
+      "label": "Bills",
+      "description": "2 products or services (Bills, Invest)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 2,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 1.2
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 1.5
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 2
+        }
+      ]
+    },
+    {
+      "id": "bills_insure",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure"
+      ],
+      "label": "Bills",
+      "description": "2 products or services (Bills, Insure)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 2,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 1.2
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 1.5
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 2
+        }
+      ]
+    },
+    {
+      "id": "bills_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "2 products or services (Bills, Loan)",
       "conditions": [],
       "min_amount": 0.01,
       "max_amount": 999999999.99,
@@ -1431,6 +1634,356 @@
       ]
     },
     {
+      "id": "bills_grow_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Grow, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_invest",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "invest"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Grow, Invest)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_insure",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Grow, Insure)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Grow, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_invest_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "invest",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Invest, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_insure_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Insure, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Loan, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_insure_invest",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure",
+        "invest"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Insure, Invest)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_invest_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "invest",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Invest, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
+      "id": "bills_insure_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "3 products or services (Bills, Insure, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 3,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.1
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 3.75
+        }
+      ]
+    },
+    {
       "id": "grow_invest_salary_spend",
       "category": "grow",
       "required_categories": [
@@ -1971,6 +2524,366 @@
       ]
     },
     {
+      "id": "bills_grow_invest_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "invest",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Invest, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_insure_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Insure, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Loan, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_insure_invest",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure",
+        "invest"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Insure, Invest)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_invest_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "invest",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Invest, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_insure_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Insure, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_insure_invest_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure",
+        "invest",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Insure, Invest, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_invest_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "invest",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Invest, Loan, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_insure_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Insure, Loan, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_insure_invest_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure",
+        "invest",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Insure, Invest, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
       "id": "grow_insure_invest_salary_spend",
       "category": "grow",
       "required_categories": [
@@ -2193,6 +3106,191 @@
       ]
     },
     {
+      "id": "bills_grow_insure_invest_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure",
+        "invest",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Insure, Invest, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_invest_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "invest",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Invest, Loan, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_insure_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Insure, Loan, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_insure_invest_loan",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure",
+        "invest",
+        "loan"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Insure, Invest, Loan)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_insure_invest_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "insure",
+        "invest",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Insure, Invest, Loan, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
       "id": "grow_insure_invest_loan_salary_spend",
       "category": "grow",
       "required_categories": [
@@ -2205,6 +3303,44 @@
       ],
       "label": "Grow",
       "description": "4 products or services or more (Grow, Insure, Invest, Loan, Salary, Spend)",
+      "conditions": [],
+      "min_amount": 0.01,
+      "max_amount": 999999999.99,
+      "min_count": 4,
+      "max_count": 99,
+      "applicable_months": 999,
+      "replaceable_by": [],
+      "interests": [
+        {
+          "min_balance": 0,
+          "max_balance": 100000,
+          "rate_pa": 3.25
+        },
+        {
+          "min_balance": 100000.01,
+          "max_balance": 125000,
+          "rate_pa": 3.75
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 6.75
+        }
+      ]
+    },
+    {
+      "id": "bills_grow_insure_invest_loan_spend",
+      "category": "bills",
+      "required_categories": [
+        "bills",
+        "grow",
+        "insure",
+        "invest",
+        "loan",
+        "spend"
+      ],
+      "label": "Bills",
+      "description": "4 products or services or more (Bills, Grow, Insure, Invest, Loan, Spend)",
       "conditions": [],
       "min_amount": 0.01,
       "max_amount": 999999999.99,
@@ -2254,7 +3390,7 @@
     },
     {
       "id": "giro",
-      "category": "salary",
+      "category": "bills",
       "label": "GIRO",
       "description": "GIRO Payment to other billing organisations",
       "conditions": [
