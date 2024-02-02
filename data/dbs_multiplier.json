@@ -13,222 +13,15 @@
   },
   "cumulative_requirements": [
     {
-      "id": "salary_1_txn_2000",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 1 category (< S$2,000)",
-      "conditions": [],
-      "min_amount": 0.01,
-      "max_amount": 1999.99,
-      "min_count": 2,
-      "max_count": 2,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 999999999.99,
-          "rate_pa": 0.0
-        }
-      ]
-    },
-    {
-      "id": "salary_2_txn_2000",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 2 categories (< S$2,000)",
-      "conditions": [],
-      "min_amount": 0.01,
-      "max_amount": 1999.99,
-      "min_count": 3,
-      "max_count": 3,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 999999999.99,
-          "rate_pa": 0.0
-        }
-      ]
-    },
-    {
-      "id": "salary_3_txn_2000",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 3 categories (< S$2,000)",
-      "conditions": [],
-      "min_amount": 0.01,
-      "max_amount": 1999.99,
-      "min_count": 4,
-      "max_count": 99,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 999999999.99,
-          "rate_pa": 0.0
-        }
-      ]
-    },
-    {
-      "id": "salary_1_txn_2500",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 1 category (>= S$2,000 to < S$2,500)",
-      "conditions": [],
-      "min_amount": 2000,
-      "max_amount": 2499.99,
-      "min_count": 2,
-      "max_count": 2,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 50000,
-          "rate_pa": 0.85
-        }
-      ]
-    },
-    {
-      "id": "salary_2_txn_2500",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 2 categories (>= S$2,000 to < S$2,500)",
-      "conditions": [],
-      "min_amount": 2000,
-      "max_amount": 2499.99,
-      "min_count": 3,
-      "max_count": 3,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 100000,
-          "rate_pa": 1.65
-        }
-      ]
-    },
-    {
-      "id": "salary_3_txn_2500",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 3 categories (>= S$2,000 to < S$2,500)",
-      "conditions": [],
-      "min_amount": 2000,
-      "max_amount": 2499.99,
-      "min_count": 4,
-      "max_count": 99,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 100000,
-          "rate_pa": 1.95
-        }
-      ]
-    },
-    {
-      "id": "salary_1_txn_5000",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 1 category (>= S$2,500 to < S$5,000)",
-      "conditions": [],
-      "min_amount": 2500,
-      "max_amount": 4999.99,
-      "min_count": 2,
-      "max_count": 2,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 50000,
-          "rate_pa": 1.45
-        }
-      ]
-    },
-    {
-      "id": "salary_2_txn_5000",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 2 categories (>= S$2,500 to < S$5,000)",
-      "conditions": [],
-      "min_amount": 2500,
-      "max_amount": 4999.99,
-      "min_count": 3,
-      "max_count": 3,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 100000,
-          "rate_pa": 1.75
-        }
-      ]
-    },
-    {
-      "id": "salary_3_txn_5000",
-      "category": "salary",
-      "required_categories": [
-        "salary"
-      ],
-      "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 3 categories (>= S$2,500 to < S$5,000)",
-      "conditions": [],
-      "min_amount": 2500,
-      "max_amount": 4999.99,
-      "min_count": 4,
-      "max_count": 99,
-      "applicable_months": 999,
-      "replaceable_by": [],
-      "interests": [
-        {
-          "min_balance": 0,
-          "max_balance": 100000,
-          "rate_pa": 2.15
-        }
-      ]
-    },
-    {
       "id": "salary_1_txn_15000",
       "category": "salary",
       "required_categories": [
         "salary"
       ],
       "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 1 category (>= S$5,000 to < S$15,000)",
+      "description": "Salary / Dividends / SGFinDex + transactions in 1 category (>= S$500 to < S$1500)",
       "conditions": [],
-      "min_amount": 5000,
+      "min_amount": 500,
       "max_amount": 14999.99,
       "min_count": 2,
       "max_count": 2,
@@ -249,9 +42,9 @@
         "salary"
       ],
       "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 2 categories (>= S$5,000 to < S$15,000)",
+      "description": "Salary / Dividends / SGFinDex + transactions in 2 categories (>= S$500 to < S$1500)",
       "conditions": [],
-      "min_amount": 5000,
+      "min_amount": 500,
       "max_amount": 14999.99,
       "min_count": 3,
       "max_count": 3,
@@ -272,9 +65,9 @@
         "salary"
       ],
       "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 3 categories (>= S$5,000 to < S$15,000)",
+      "description": "Salary / Dividends / SGFinDex + transactions in 3 categories (>= S$500 to < S$1500)",
       "conditions": [],
-      "min_amount": 5000,
+      "min_amount": 500,
       "max_amount": 14999.99,
       "min_count": 4,
       "max_count": 99,
@@ -434,9 +227,9 @@
       "label": "Salary",
       "description": "Salary / Dividends / SGFinDex",
       "conditions": [
-        "Credit your salary into your DBS/POSB account via GIRO with transaction code 'SAL' or 'PAY'. The main description in your Statement is 'Salary' or 'GIRO Salary'. OR",
-        "Credit your dividends into your DBS/POSB account, DBS Wealth Management Account, Supplementary Retirement Scheme (SRS) account or CPF Investment Account (CPFIA). Eligible dividends include Central Depository Pte Ltd (CDP), DBS Vickers Securities, DBS Online Equity Trading (OET), DBS Unit Trusts, DBS Online Funds Investing and DBS Invest-Saver. OR",
-        "Connect and share financial information from your other banks and government accounts (CPF, HDB and IRAS) with SGFinDex and request for information retrieval of the linked accounts through DBS NAV Planner monthly."
+        "Credit your salary into your DBS/POSB SGD-denominated account via GIRO/FAST/PayNow with transaction code 'SAL'/'PAY' or transaction description 'SALARY'/'PAYROLL'/'COMMISSION'/'BONUS'.",
+        "Credit your dividends via GIRO/FAST/PayNow with transaction code 'CDP'/'NDIV' or transaction description 'DIVIDEND' into your DBS/POSB account, DBS Wealth Management Account, Supplementary Retirement Scheme (SRS) Account or CPF Investment Account (CPFIA). Eligible dividends include Central Depository Pte Ltd (CDP), DBS Vickers Securities, DBS Online Equity Trading (OET), DBS Unit Trusts, DBS Online Funds Investing, DBS Invest-Saver.",
+        "Credit your CPF payouts or SRS withdrawals via GIRO/FAST/PayNow with transaction code 'CPF'/'SRS' or transaction description 'CPF'/'SRS' into your DBS/POSB account."
       ],
       "cumulative_min_amount": 0.01,
       "cumulative_max_amount": 999999999.99,
@@ -454,8 +247,8 @@
       "label": "Spend",
       "description": "Credit Card Spend",
       "conditions": [
-        "Eligible credit card spend consists of retail and cash advance transactions posted within the calendar month. Reversals/credits/refunds posted will offset eligible credit card spend",
-        "Eligible credit card spend across main cards & supplementary cards are accorded to the main cardholder"
+        "Eligible credit card spend consists of retail and cash advance transactions posted within the calendar month. Reversals/credits/refunds posted will offset eligible credit card spend.",
+        "Eligible credit card spend across main cards & supplementary cards are accorded to the main cardholder."
       ],
       "cumulative_min_amount": 0.01,
       "cumulative_max_amount": 999999999.99,
@@ -515,7 +308,8 @@
       "label": "Invest",
       "description": "Unit Trust Lump-sum Investment",
       "conditions": [
-        "Valid for new Unit Trust lump-sum or Online Funds Investment purchased with cash, DBS CPFIA or DBS SRS Account after Multiplier Account is opened."
+        "Valid for new Unit Trust lump-sum or Online Funds Investment purchased with cash, DBS CPFIA or DBS SRS Account after Multiplier Account is opened.",
+        "The investment amount will be recognised post settlement date."
       ],
       "cumulative_min_amount": 0.01,
       "cumulative_max_amount": 999999999.99,
@@ -587,8 +381,8 @@
       "description": "digiPortfolio",
       "conditions": [
         "Valid for new digiPortfolio purchased/top-ups after Multiplier Account is opened.",
-        "Minimum qualifying amount is S$1,000.",
-        "The investment amount will be recognised post settlement date. OR"
+        "Minimum qualifying amount is S$1,000 per transaction.",
+        "The investment amount will be recognised post settlement date."
       ],
       "cumulative_min_amount": 0.01,
       "cumulative_max_amount": 999999999.99,

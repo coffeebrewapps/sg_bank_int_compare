@@ -30,28 +30,18 @@
       "interests": [
         {
           "min_balance": 0,
-          "max_balance": 15000,
-          "rate_pa": 0.2
-        },
-        {
-          "min_balance": 15000.01,
           "max_balance": 30000,
-          "rate_pa": 0.2
+          "rate_pa": 0.6
         },
         {
           "min_balance": 30000.01,
-          "max_balance": 45000,
-          "rate_pa": 0.2
-        },
-        {
-          "min_balance": 45000.01,
           "max_balance": 60000,
-          "rate_pa": 0.2
+          "rate_pa": 0.6
         },
         {
           "min_balance": 60000.01,
           "max_balance": 75000,
-          "rate_pa": 0.2
+          "rate_pa": 0.6
         },
         {
           "min_balance": 75000.01,
@@ -84,28 +74,18 @@
       "interests": [
         {
           "min_balance": 0,
-          "max_balance": 15000,
-          "rate_pa": 0.7
-        },
-        {
-          "min_balance": 15000.01,
           "max_balance": 30000,
-          "rate_pa": 0.75
+          "rate_pa": 2.45
         },
         {
           "min_balance": 30000.01,
-          "max_balance": 45000,
-          "rate_pa": 0.8
-        },
-        {
-          "min_balance": 45000.01,
           "max_balance": 60000,
-          "rate_pa": 0.85
+          "rate_pa": 2.95
         },
         {
           "min_balance": 60000.01,
           "max_balance": 75000,
-          "rate_pa": 2.45
+          "rate_pa": 3.95
         },
         {
           "min_balance": 75000.01,
@@ -138,33 +118,23 @@
       "interests": [
         {
           "min_balance": 0,
-          "max_balance": 15000,
-          "rate_pa": 1.35
-        },
-        {
-          "min_balance": 15000.01,
           "max_balance": 30000,
-          "rate_pa": 1.35
+          "rate_pa": 3.8
         },
         {
           "min_balance": 30000.01,
-          "max_balance": 45000,
-          "rate_pa": 1.45
-        },
-        {
-          "min_balance": 45000.01,
           "max_balance": 60000,
-          "rate_pa": 1.45
+          "rate_pa": 3.85
         },
         {
           "min_balance": 60000.01,
           "max_balance": 75000,
-          "rate_pa": 2.45
+          "rate_pa": 4.8
         },
         {
           "min_balance": 75000.01,
           "max_balance": 100000,
-          "rate_pa": 3.55
+          "rate_pa": 7.75
         },
         {
           "min_balance": 100000.01,
