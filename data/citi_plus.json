@@ -1,6 +1,7 @@
 {
   "id": "citi_plus",
   "name": "Citi Plus",
+  "last_updated_at": "2024-02-02",
   "metadata": {
     "individual_requirement": true,
     "base_interests": [

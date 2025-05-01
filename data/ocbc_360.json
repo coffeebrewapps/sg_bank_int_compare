@@ -1,6 +1,7 @@
 {
   "id": "ocbc_360",
   "name": "OCBC 360 Account",
+  "last_updated_at": "2025-05-01",
   "metadata": {
     "individual_requirement": true,
     "base_interests": [
@@ -34,12 +35,12 @@
         {
           "min_balance": 0,
           "max_balance": 75000,
-          "rate_pa": 2.0
+          "rate_pa": 1.6
         },
         {
           "min_balance": 75000.01,
           "max_balance": 100000,
-          "rate_pa": 4.0
+          "rate_pa": 3.2
         }
       ]
     },
@@ -63,12 +64,12 @@
         {
           "min_balance": 0,
           "max_balance": 75000,
-          "rate_pa": 1.2
+          "rate_pa": 0.6
         },
         {
           "min_balance": 75000.01,
           "max_balance": 100000,
-          "rate_pa": 2.4
+          "rate_pa": 1.2
         }
       ]
     },
@@ -92,7 +93,7 @@
         {
           "min_balance": 0,
           "max_balance": 100000,
-          "rate_pa": 0.6
+          "rate_pa": 0.5
         }
       ]
     },
@@ -336,7 +337,7 @@
         {
           "min_balance": 0,
           "max_balance": 100000,
-          "rate_pa": 2.4
+          "rate_pa": 2.2
         }
       ]
     }

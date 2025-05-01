@@ -1,6 +1,7 @@
 {
   "id": "uob_one",
   "name": "UOB One Account",
+  "last_updated_at": "2025-05-01",
   "metadata": {
     "individual_requirement": false,
     "base_interests": [
@@ -30,26 +31,21 @@
       "interests": [
         {
           "min_balance": 0,
-          "max_balance": 30000,
-          "rate_pa": 0.6
-        },
-        {
-          "min_balance": 30000.01,
-          "max_balance": 60000,
-          "rate_pa": 0.6
-        },
-        {
-          "min_balance": 60000.01,
           "max_balance": 75000,
           "rate_pa": 0.6
         },
         {
           "min_balance": 75000.01,
-          "max_balance": 100000,
+          "max_balance": 125000,
           "rate_pa": 0.0
         },
         {
-          "min_balance": 100000.01,
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 0.0
+        },
+        {
+          "min_balance": 150000.01,
           "max_balance": 999999999.99,
           "rate_pa": 0.0
         }
@@ -74,26 +70,21 @@
       "interests": [
         {
           "min_balance": 0,
-          "max_balance": 30000,
-          "rate_pa": 2.45
-        },
-        {
-          "min_balance": 30000.01,
-          "max_balance": 60000,
-          "rate_pa": 2.95
-        },
-        {
-          "min_balance": 60000.01,
           "max_balance": 75000,
-          "rate_pa": 3.95
+          "rate_pa": 1.45
         },
         {
           "min_balance": 75000.01,
-          "max_balance": 100000,
+          "max_balance": 125000,
+          "rate_pa": 2.45
+        },
+        {
+          "min_balance": 125000.01,
+          "max_balance": 150000,
           "rate_pa": 0.0
         },
         {
-          "min_balance": 100000.01,
+          "min_balance": 150000.01,
           "max_balance": 999999999.99,
           "rate_pa": 0.0
         }
@@ -118,26 +109,21 @@
       "interests": [
         {
           "min_balance": 0,
-          "max_balance": 30000,
-          "rate_pa": 3.8
-        },
-        {
-          "min_balance": 30000.01,
-          "max_balance": 60000,
-          "rate_pa": 3.85
-        },
-        {
-          "min_balance": 60000.01,
           "max_balance": 75000,
-          "rate_pa": 4.8
+          "rate_pa": 2.25
         },
         {
           "min_balance": 75000.01,
-          "max_balance": 100000,
-          "rate_pa": 7.75
+          "max_balance": 125000,
+          "rate_pa": 3.75
         },
         {
-          "min_balance": 100000.01,
+          "min_balance": 125000.01,
+          "max_balance": 150000,
+          "rate_pa": 5.25
+        },
+        {
+          "min_balance": 150000.01,
           "max_balance": 999999999.99,
           "rate_pa": 0.0
         }

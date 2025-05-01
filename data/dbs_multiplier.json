@@ -1,6 +1,7 @@
 {
   "id": "dbs_multiplier",
   "name": "DBS Multiplier",
+  "last_updated_at": "2025-05-01",
   "metadata": {
     "individual_requirement": false,
     "base_interests": [
@@ -19,7 +20,7 @@
         "salary"
       ],
       "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 1 category (>= S$500 to < S$1500)",
+      "description": "Salary / Dividends / SGFinDex + transactions in 1 category (>= S$500 to < S$15000)",
       "conditions": [],
       "min_amount": 500,
       "max_amount": 14999.99,
@@ -42,7 +43,7 @@
         "salary"
       ],
       "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 2 categories (>= S$500 to < S$1500)",
+      "description": "Salary / Dividends / SGFinDex + transactions in 2 categories (>= S$500 to < S$15000)",
       "conditions": [],
       "min_amount": 500,
       "max_amount": 14999.99,
@@ -65,7 +66,7 @@
         "salary"
       ],
       "label": "Salary",
-      "description": "Salary / Dividends / SGFinDex + transactions in 3 categories (>= S$500 to < S$1500)",
+      "description": "Salary / Dividends / SGFinDex + transactions in 3 categories (>= S$500 to < S$15000)",
       "conditions": [],
       "min_amount": 500,
       "max_amount": 14999.99,
